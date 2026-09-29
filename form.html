@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h1>
+        Sandrine Tuyizere "Tuyizere": Unknown word.
+        <h1>
+            <nav><aria-label="Main" <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <nav>
+                        </header>
+
+                        <main>
+                            <section id="aboutme">
+                                <h2>About me</h2>
+                                <p>Frontend developer in training based in Kigali.</p>
+                            </section>
+                            <section id="projects">
+                                <section id="projects">
+                                    <h2>Projects</h2>
+                                    <article>
+                                        <h4>
+                                            <p>Shows live weather for any city using a public API.</p>
+                                            <p>Published <time datetime="2026-09-12">12 September 2026</time></p>
+
+                                            </p>
+                                    </article>
+                                    <h3>To-do App</h3>
+                                    <p>Add, complete and delete tasks.</p>
+                                    </article>
+                                </section>
+
+                                <aside>
+                                    <h2>Currently learning</h2>
+                                    <ul>
+                                        <li>CSS Flexbox</li>
+                                        <li>JavaScript</li>
+                                    </ul>
+                                </aside>
+<label for="message">Message</label>
+<textarea id="message" name="message" rows="5" placeholder="Write your message…"></textarea>
+
+<br>
+<label for="track">Track</label>
+<select id="track" name="track">
+  <option value="">-- Choose a track --</option>
+  <option value="frontend">Frontend</option>
+  <option value="backend">Backend</option>
+  <option value="Others">others</option>
+</select>
+<br>
+<br>
+<fieldset>
+  <legend>Preferred session</legend>
+  <input type="radio" id="tue" name="session" value="tuesday">
+  <label for="tue">Tuesday</label>
+  <input type="radio" id="sat" name="session" value="saturday">
+  <label for="sat">Saturday</label>
+</fieldset>
+ 
+<br>
+<fieldset>
+  <legend>Skills</legend>
+  <input type="checkbox" id="html" name="skills" value="html">
+  <label for="html">HTML</label>
+  <input type="checkbox" id="css" name="skills" value="css">
+  <label for="css">CSS</label>
+</fieldset>
+
+                                <form action="/subscribe" method="post">
+                                    <label for="email">Email address</label>
+                                    <input type="email" id="email" name="email" required>
+                                    <button type="submit">Subscribe</button>
+                                </form>
+                        </main>
+<video controls width="640" poster="Vedio.mp4">
+  <source src="Vedio.mp4" type="Vedio">
+  <source src="Vedio.mp4" type="video/mp4">
+  <track src="Video.html/" kind="captions" srclang="en" label="English">
+  Your browser does not support HTML video. <a href="Video.html/">Download the video</a>.
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/PGUdWfB8nLg?si=RR5NeFY6ds9kjhuI" 
+  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+  gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</video>
+
+<div class="header">
+  <div class="logo">TechNews Rwanda</div>
+  <div class="menu">
+    <a href="/">Home</a> <a href="/tech">Tech</a> <a href="/about">About</a>
+  </div>
+</div>
+<div class="content">
+  <div class="post">
+    <div class="title">Kigali hosts Africa Tech Summit</div>
+    <div class="date">20 Sep 2026</div>
+    <div class="text">Hundreds of developers met…</div>
+  </div>
+  <div class="sidebar">Popular posts…</div>
+</div>
+<div class="bottom">© 2026 TechNews Rwanda</div>
+
+<header>
+  <p class="logo">TechNews Rwanda</p>
+  <nav aria-label="Main">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/tech">Tech</a></li>
+      <li><a href="/about">About</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <article>
+    <h1>Kigali hosts Africa Tech Summit</h1>
+    <p><time datetime="2026-09-20">20 Sep 2026</time></p>
+    <p>Hundreds of developers met…</p>
+  </article>
+  <aside>
+    <h2>Popular posts</h2>
+    …
+  </aside>
+</main>
+<section id="contact">
+  <h2>Contact me</h2>
+  <form action="https://formspree.io/f/your-id" method="post">
+    <p>
+      <label for="fullname">Full name</label><br>
+      <input type="text" id="fullname" name="fullname" autocomplete="name" required>
+    </p>
+ 
+    <p>
+      <label for="email">Email</label><br>
+      <input type="email" id="email" name="email" autocomplete="email" required>
+    </p>
+ 
+    <p>
+      <label for="phone">Phone (optional)</label><br>
+      <input type="tel" id="phone" name="phone" pattern="07[0-9]{8}"
+             aria-describedby="phone-hint">
+      <br><small id="phone-hint">Format: 07XXXXXXXX</small>
+    </p>
+ 
+    <p>
+      <label for="subject">Subject</label><br>
+      <select id="subject" name="subject" required>
+        <option value="">-- Choose --</option>
+        <option value="project">Project enquiry</option>
+        <option value="job">Job offer</option>
+        <option value="other">Other</option>
+      </select>
+    </p>
+ 
+    <fieldset>
+      <legend>Preferred contact method</legend>
+      <input type="radio" id="by-email" name="contact_method" value="email" checked>
+      <label for="by-email">Email</label>
+      <input type="radio" id="by-phone" name="contact_method" value="phone">
+      <label for="by-phone">Phone</label>
+    </fieldset>
+ 
+    <p>
+      <label for="message">Message</label><br>
+      <textarea id="message" name="message" rows="5" minlength="20" required></textarea>
+    </p>
+ 
+    <p>
+      <input type="checkbox" id="consent" name="consent" required>
+      <label for="consent">I agree to be contacted about my message.</label>
+    </p>
+ 
+    <button type="submit">Send message</button>
+  </form>
+</section>
+<form>
+  <input type="text" name="t" placeholder="text">
+  <input type="password" name="p">
+  <input type="email" name="e">
+  <input type="tel" name="tel">
+  <input type="number" name="n" min="1" max="10">
+  <input type="date" name="d">
+  <input type="url" name="u">
+  <input type="search" name="s">
+  <input type="range" name="r" min="0" max="100">
+  <input type="color" name="c">
+  <input type="file" name="f" accept=".pdf">
+  <input type="checkbox" name="cb" checked>
+  <input type="radio" name="rd" value="a">
+  <textarea name="ta"></textarea>
+  <select name="sel"><option>One</option></select>
+  <button type="submit">Submit</button>
+</form>
+<html>
+<body>
+  <div class="nav"><a href="/">click here</a></div>
+  <h3>Welcome</h3>
+  <img src="banner.jpg">
+  <input type="text" placeholder="Your name">
+  <div onclick="send()">Send</div>
+</body>
+</html>
+
+<body>
+  <a href="#main">Skip to main content</a>
+  <header><h1>Name</h1><nav aria-label="Main"><ul><li><a href="#s1">Section</a></li></ul></nav></header>
+  <main id="main">
+    <section id="s1"><h2>Section</h2><article><h3>Item</h3></article></section>
+    <aside><h2>Related</h2></aside>
+  </main>
+  <footer><small>&copy; 2026</small></footer>
+</body>
+ 
+<form action="/send" method="post">
+  <label for="e">Email</label> <input type="email" id="e" name="email" required>
+  <fieldset><legend>Choice</legend>
+    <input type="radio" id="a" name="c" value="a"><label for="a">A</label>
+  </fieldset>
+  <textarea id="m" name="message"></textarea>
+  <button type="submit">Send</button>
+</form>
+ 
+<video controls><source src="v.mp4" type="video/mp4"><track kind="captions" src="v.vtt" srclang="en"></video>
+<iframe src="…" title="Description" loading="lazy"></iframe>
+
+
+<footer>
+  <p><small>&copy; 2026 TechNews Rwanda</small></p>
+</footer>
+
+
+                        <footer>
+                            <p><small>&copy; 2026 Sandrine Tuyizere</small></p>
+                        </footer>
+</body>
+
+</section>
+
+</body>
+
+</html>

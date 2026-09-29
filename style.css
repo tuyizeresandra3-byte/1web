@@ -1,0 +1,15 @@
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.profile img {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.text {
+    max-width: 500px;
+}
